@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="initial set up of login form">
-      <change afterPath="$PROJECT_DIR$/css/forAlerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/forAlerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/authenticate.php" afterDir="false" />
+    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="addition of authenticate.php page and css for alerts with associated javascript">
+      <change afterPath="$PROJECT_DIR$/css/forNavbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/home_network.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/secam_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbconn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homePage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logoff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/loginForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685968553035</updated>
       <workItem from="1685968554444" duration="1186000" />
-      <workItem from="1686061725106" duration="4446000" />
+      <workItem from="1686061725106" duration="12627000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
       <created>1685969591364</created>
@@ -91,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685978281404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="addition of authenticate.php page and css for alerts with associated javascript">
+      <created>1686068403861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686068403861</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +130,7 @@
     <MESSAGE value="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups" />
     <MESSAGE value="checking that using dev branch not main" />
     <MESSAGE value="initial set up of login form" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial set up of login form" />
+    <MESSAGE value="addition of authenticate.php page and css for alerts with associated javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="addition of authenticate.php page and css for alerts with associated javascript" />
   </component>
 </project>

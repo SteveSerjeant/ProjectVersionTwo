@@ -33,8 +33,13 @@ session_start();
 //$error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
 //if ($error == "wrongUsername") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Incorrect Username</div>";}
 
+//for incorrect username or password
 $error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
 if ($error == "wrong") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Incorrect Login Credentials</div>";}
+
+//for not logged in
+$error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
+if ($error == "notlogged") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Not Logged In</div>";}
 
 ?>
 
