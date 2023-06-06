@@ -20,8 +20,23 @@ session_start();
 
     <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="../css/loginForm.css" type="text/css">
+    <!--    /*for alert messages*/-->
+    <link rel="stylesheet" href="../css/forAlerts.css" type="text/css">
 </head>
 <body>
+<?php
+
+// used to check incorrect password or username work independently, then replaced with one alert for both
+//$error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
+//if ($error == "wrongPassword") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Incorrect Login Password</div>";}
+//
+//$error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
+//if ($error == "wrongUsername") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Incorrect Username</div>";}
+
+$error = (isset($_GET["err"])) ? base64_decode($_GET["err"]) : "";
+if ($error == "wrong") {echo "<div class=\"alert alert-danger alert-dismissible\" role=\"alert\" id=\"banner\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button><strong>ERROR:</strong>      Incorrect Login Credentials</div>";}
+
+?>
 
 <div class="login">
     <h1>Dashboard Login</h1>
@@ -42,11 +57,15 @@ session_start();
     </form>
 </div>
 
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+<!-- for alert messages -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+
 <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
-<!---->
-<!--<script src="../javascript/for-alerts.js"></script>-->
+
+
+<script src="../javascript/forAlerts.js"></script>
 
 </body>
 
