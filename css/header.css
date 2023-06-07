@@ -1,10 +1,13 @@
 
 #mainTitle {
     color: black;
-    font-family: Arial;
-    font-size: 50px;
-    background-color: green;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height: 40px;
+    font-family: Arial, serif;
+    font-size: 30px;
+    background-color: #9bb7d4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: 2px 2px;
 }
+

@@ -7,7 +7,7 @@
     <div id="top-header">
 
         <div id="logo">
-            <img src="../img/logo2.png"  alt="dashboardImage"/>
+            <img src="../img/logo2.png" alt="dashboardImage" width="600" height="135"/>
         </div>
 
         <nav >
