@@ -20,7 +20,7 @@ if (!isset($_POST['username'], $_POST['password'])) {
 }
 
 //prepare our SQL statement
-//if ($stmt = $con->prepare('CALL validateEmail(?)'))
+
     if ($stmt = $con->prepare('SELECT id, password FROM users WHERE username = ?'))
     {
 

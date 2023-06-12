@@ -2,11 +2,12 @@
 #mainTitle {
     color: black;
     font-family: Arial, serif;
-    font-size: 30px;
+    font-size: 40px;
     background-color: #9bb7d4;
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 80px;
+    /*line-height: 25%;*/
     text-align: center;
     text-shadow: 2px 2px;
 }

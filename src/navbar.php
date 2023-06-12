@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <head>
     <title>Navbar</title>
+    <link rel="stylesheet" href="../css/forNavbar.css" type="text/css">
+
+
 
 </head>
-<header>
-    <div id="top-header">
+<!--<header>-->
+    <div id="navbar">
 
         <div id="logo">
-            <img src="../img/logo2.png" alt="dashboardImage" width="600" height="135"/>
+<!--            <img src="../img/logo2.png" alt="dashboardImage" width="600" height="135"/>-->
+            <h2>Home Security Dashboard</h2><h4>Protect, Safe & Secure</h4>
         </div>
 
         <nav >
@@ -27,6 +31,7 @@
             </div>
 
         </nav>
+    </div>
 
-</header>
+<!--</header>-->
 

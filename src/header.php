@@ -8,6 +8,5 @@
 </head>
 
 <div id="mainTitle">
-<!--    <div id="mainTitle" style="text-align: center; width: 100%; font-size: 40px">-->
-    <h1>Home Security Scanner</h1>
+    Home Security Scanner
 </div>

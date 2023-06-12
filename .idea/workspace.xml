@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="changes to header">
+    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="header and navbar looking OK">
+      <change afterPath="$PROJECT_DIR$/css/outputTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/changePassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/portList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/forNavbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forNavbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/loginForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loginForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/homePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +77,14 @@
       <updated>1685968553035</updated>
       <workItem from="1685968554444" duration="1186000" />
       <workItem from="1686061725106" duration="13151000" />
-      <workItem from="1686132858702" duration="1557000" />
+      <workItem from="1686132858702" duration="1643000" />
+      <workItem from="1686229279784" duration="1206000" />
+      <workItem from="1686230796549" duration="332000" />
+      <workItem from="1686296798166" duration="3527000" />
+      <workItem from="1686303537999" duration="3061000" />
+      <workItem from="1686403440833" duration="2506000" />
+      <workItem from="1686410746011" duration="6249000" />
+      <workItem from="1686571681136" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
       <created>1685969591364</created>
@@ -106,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686082591462</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changes to header">
+      <created>1686134488508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686134488508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +153,7 @@
     <MESSAGE value="addition of authenticate.php page and css for alerts with associated javascript" />
     <MESSAGE value="beginning of header and navbar" />
     <MESSAGE value="changes to header" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to header" />
+    <MESSAGE value="header and navbar looking OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="header and navbar looking OK" />
   </component>
 </project>
