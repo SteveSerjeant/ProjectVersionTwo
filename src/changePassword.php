@@ -30,9 +30,14 @@ require_once "dbconn.php";
 
 <body>
 <header>
-    <?php include 'header.php' ?>
-    <?php include 'navbar.php' ?>
+    <?php
+    include 'header.php';
+    include 'navbar.php';
+    ?>
+<!--    --><?php //include 'passwordForm.php'?>
 </header>
+
+
 
 <!--<div class="login">-->
 <!--    <h1>Change Password</h1>-->

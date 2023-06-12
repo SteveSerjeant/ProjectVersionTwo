@@ -37,12 +37,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
 <body>
 <header>
-    <?php include 'header.php' ?>
-    <?php include 'navbar.php' ?>
+    <?php
+    include 'header.php';
+    include 'navbar.php';
+    ?>
 </header>
-<!--<nav>-->
-<!--        --><?php //include 'navbar.php' ?>
-<!--</nav>-->
 
 <article>
 
