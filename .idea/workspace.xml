@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="header and navbar the same on homePage and change password page - however when code for form is added navbar changes! not sure why">
-      <change afterPath="$PROJECT_DIR$/src/addNotes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/passwordForm.php" afterDir="false" />
+    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="all pages from homePage added and set up with header, navbar and footer. All look the same.">
+      <change afterPath="$PROJECT_DIR$/src/saveScans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scanOnDemand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/changePassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/changePassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/homePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/portList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addNotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/addNotes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,9 @@
       <workItem from="1686403440833" duration="2506000" />
       <workItem from="1686410746011" duration="6249000" />
       <workItem from="1686571681136" duration="3836000" />
-      <workItem from="1686587836417" duration="1420000" />
+      <workItem from="1686587836417" duration="2074000" />
+      <workItem from="1686645298962" duration="5182000" />
+      <workItem from="1686668840766" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
       <created>1685969591364</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686576846075</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="all pages from homePage added and set up with header, navbar and footer. All look the same.">
+      <created>1686589648974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589648974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +162,7 @@
     <MESSAGE value="changes to header" />
     <MESSAGE value="header and navbar looking OK" />
     <MESSAGE value="header and navbar the same on homePage and change password page - however when code for form is added navbar changes! not sure why" />
-    <option name="LAST_COMMIT_MESSAGE" value="header and navbar the same on homePage and change password page - however when code for form is added navbar changes! not sure why" />
+    <MESSAGE value="all pages from homePage added and set up with header, navbar and footer. All look the same." />
+    <option name="LAST_COMMIT_MESSAGE" value="all pages from homePage added and set up with header, navbar and footer. All look the same." />
   </component>
 </project>
