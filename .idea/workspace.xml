@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="all pages from homePage added and set up with header, navbar and footer. All look the same.">
-      <change afterPath="$PROJECT_DIR$/src/saveScans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scanOnDemand.php" afterDir="false" />
+    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="Start of scan on demand and saveScans">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addNotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/addNotes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saveScans.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/saveScans.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scanOnDemand.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1686571681136" duration="3836000" />
       <workItem from="1686587836417" duration="2074000" />
       <workItem from="1686645298962" duration="5182000" />
-      <workItem from="1686668840766" duration="667000" />
+      <workItem from="1686668840766" duration="1373000" />
+      <workItem from="1686830711379" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
       <created>1685969591364</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686589648974</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Start of scan on demand and saveScans">
+      <created>1686681821292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686681821292</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="header and navbar looking OK" />
     <MESSAGE value="header and navbar the same on homePage and change password page - however when code for form is added navbar changes! not sure why" />
     <MESSAGE value="all pages from homePage added and set up with header, navbar and footer. All look the same." />
-    <option name="LAST_COMMIT_MESSAGE" value="all pages from homePage added and set up with header, navbar and footer. All look the same." />
+    <MESSAGE value="Start of scan on demand and saveScans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of scan on demand and saveScans" />
   </component>
 </project>
