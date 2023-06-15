@@ -1,0 +1,74 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"17c81175-019c-4855-bbe1-c2c4d81f760e\" name=\"Changes\" comment=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2QmpLAk7Imm1n5UwElsM1JQoamI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/..\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"17c81175-019c-4855-bbe1-c2c4d81f760e\" name=\"Changes\" comment=\"\" />\r\n      <created>1685968553035</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1685968553035</updated>\r\n      <workItem from=\"1685968554444\" duration=\"2104000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\">\r\n      <created>1685969591364</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1685969591364</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\">\r\n      <created>1685969979366</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1685969979366</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\">\r\n      <created>1685970022756</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1685970022756</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\">\r\n      <created>1685970104307</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1685970104307</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"setting up dev branch\" />\r\n    <MESSAGE value=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,9 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="checking that using dev branch not main" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -22,6 +20,13 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GithubProjectSettings">
++    <option name="branchProtectionPatterns">
++      <list>
++        <option value="main" />
++      </list>
++    </option>
++  </component>
+   <component name="ProjectId" id="2QmpLAk7Imm1n5UwElsM1JQoamI" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -44,6 +49,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1685968553035</updated>
+       <workItem from="1685968554444" duration="2104000" />
++      <workItem from="1685973669576" duration="384000" />
+     </task>
+     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
+       <created>1685969591364</created>
+@@ -73,7 +79,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1685970104307</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="checking that using dev branch not main">
++      <created>1685973848959</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1685973848959</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -89,10 +102,12 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="setting up dev branch" />
+     <MESSAGE value="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups" />
+-    <option name="LAST_COMMIT_MESSAGE" value="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups" />
++    <MESSAGE value="checking that using dev branch not main" />
++    <option name="LAST_COMMIT_MESSAGE" value="checking that using dev branch not main" />
+   </component>
+ </project>
+\ No newline at end of file

@@ -20,22 +20,19 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">-->
-<!--    <link rel="stylesheet" href="../css/header.css" type="text/css">-->
     <link rel="stylesheet" href="../css/outputTable.css" type="text/css">
-<!--    <link rel="stylesheet" href="../css/forNavbar.css" type="text/css">-->
 
     <!--    /*for alert messages*/-->
     <link rel="stylesheet" href="../css/forAlerts.css" type="text/css">
 
     <!--    stylesheet for the username and password icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">-->
 
 
 
 </head>
 
-<body>
+<body style="min-height: 100vh">
 <header>
     <?php
     include 'header.php';
@@ -113,13 +110,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
             </div>
         </div>
 
-<!---->
-<!--        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
-<!--        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
-<!--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
-<!---->
-<!--        <script src="../javascript/for-alerts.js"></script>-->
-<!---->
+
 
 
 
