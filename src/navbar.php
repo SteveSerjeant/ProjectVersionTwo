@@ -18,7 +18,8 @@
             <div id="menu">
                 <ul>
                     <li><a href="scanOnDemand.php" title="This will perform a scan of the network and update the database if new devices are found" style="background-color: red">Scan</a> </li>
-                    <li><a href="" title="Hover over column headers below for further info">Hover</a> </li>
+<!--                    <li><span class="tooltip">Hover over column headers for more info</span> </li>-->
+                    <li><a href="#" title="Hover over column headers below for further info">Hover</a> </li>
                     <li><a href="showOS.php">OS</a></li>
                     <li><a href="showHistory.php">History</a></li>
                     <li><a href="homePage.php">Home</a> </li>

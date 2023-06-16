@@ -13,7 +13,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     exit;
 }
 
-
 ?>
 <head>
     <title>Home Page</title>
@@ -24,11 +23,6 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
     <!--    /*for alert messages*/-->
     <link rel="stylesheet" href="../css/forAlerts.css" type="text/css">
-
-    <!--    stylesheet for the username and password icons-->
-<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">-->
-
-
 
 </head>
 
@@ -59,20 +53,20 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
                             <col span="1" style="width: 5%">
                         </colgroup>
 
-                        <tr bgcolor="#afeeee" style="text-align: center">
-                            <th class="moreInfo" style='text-align: center'>Host Name
+                        <tr>
+                            <th class="moreInfo">Host Name
                                 <span class="tooltip">This is the device hostname, found in the about your PC section</span></th>
-                            <th class="moreInfo" style='text-align: center'>IP Address
+                            <th class="moreInfo">IP Address
                                 <span class="tooltip">This is the unique internal "address" for this device on this network</span></th>
-                            <th  class="moreInfo" style='text-align: center'>MAC Address
+                            <th class="moreInfo">MAC Address
                                 <span class="tooltip">This is a unique identifier for this device</span></th>
-                            <th class="moreInfo" style='text-align: center'>When Added
+                            <th class="moreInfo">When Added
                                 <span class="tooltip">This is the date when this device was found by scanning and added to the database</span></th>
-                            <th class="moreInfo" style='text-align: center'>Notes
+                            <th class="moreInfo">Notes
                                 <span class="tooltip">User added notes about the device</span></th>
-                            <th class="moreInfo" style='text-align: center'>Add Notes
+                            <th class="moreInfo">Add Notes
                                 <span class="tooltip">Clicking on the link gives the user the option to add the notes</span></th>
-                            <th class="moreInfo" style='text-align: center'>Port List
+                            <th class="moreInfo">Port List
                                 <span class="tooltip">Click on the link to display port and services running for each device on the network</span></th>
                         </tr>
 
