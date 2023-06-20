@@ -20,6 +20,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="../css/outputTable.css" type="text/css">
+    <link rel="stylesheet" href="../css/forNavbar.css" type="text/css">
 
     <!--    /*for alert messages*/-->
     <link rel="stylesheet" href="../css/forAlerts.css" type="text/css">
@@ -30,7 +31,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 <header>
     <?php
     include 'header.php';
-    include 'navbar.php';
+    include 'navbarTest.php';
     ?>
 </header>
 

@@ -3,11 +3,9 @@
 session_start();
 
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
+    header("location: index.php?err=" . base64_encode("notlogged"));
     exit;
 }
-
-require_once "dbconn.php";
 
 ?>
 
@@ -16,21 +14,22 @@ require_once "dbconn.php";
 <head>
     <title>Security Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--    stylesheet for the username and password icons-->
-<!--    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">-->
-
-</head>
-
-<body>
-<header>
     <?php
     include 'header.php';
     include 'navbar.php';
     ?>
 
-</header>
+</head>
 
+<body>
 
+<section>
+    <p>
+    <h1>Hello World!</h1>
+    </p>
+    This will be for the user guide
+
+</section>
 
 
 
@@ -42,3 +41,6 @@ require_once "dbconn.php";
     include_once ("footer.php");
     ?>
 </footer>
+
+</html>
+
