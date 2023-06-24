@@ -67,7 +67,7 @@ if ($error == "notlogged") {echo "<div class=\"alert alert-danger alert-dismissi
 
 
 
-<script src="../javascript/forAlerts.js"></script>
+
 
 </body>
 

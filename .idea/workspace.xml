@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c81175-019c-4855-bbe1-c2c4d81f760e" name="Changes" comment="homepage table css tidied up">
-      <change afterPath="$PROJECT_DIR$/css/forHeaderVTwo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headerVTwo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moreInfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/navbarTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/showOSinfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/forNavbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/forNavbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/homePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/showHistory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/showHistory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/showOS.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/showOS.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userGuide.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/userGuide.php" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,27 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685968553035</updated>
-      <workItem from="1685968554444" duration="1186000" />
-      <workItem from="1686061725106" duration="13151000" />
-      <workItem from="1686132858702" duration="1643000" />
-      <workItem from="1686229279784" duration="1206000" />
-      <workItem from="1686230796549" duration="332000" />
-      <workItem from="1686296798166" duration="3527000" />
-      <workItem from="1686303537999" duration="3061000" />
-      <workItem from="1686403440833" duration="2506000" />
-      <workItem from="1686410746011" duration="6249000" />
-      <workItem from="1686571681136" duration="3836000" />
-      <workItem from="1686587836417" duration="2074000" />
-      <workItem from="1686645298962" duration="5182000" />
-      <workItem from="1686668840766" duration="1373000" />
-      <workItem from="1686830711379" duration="8869000" />
-      <workItem from="1686912378013" duration="2396000" />
-      <workItem from="1686917291950" duration="482000" />
-      <workItem from="1687163902291" duration="3939000" />
-      <workItem from="1687168260173" duration="839000" />
-      <workItem from="1687169183586" duration="2312000" />
-      <workItem from="1687175341789" duration="3712000" />
-      <workItem from="1687249818081" duration="5819000" />
+
     </task>
     <task id="LOCAL-00001" summary="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups">
       <created>1685969591364</created>
@@ -104,84 +71,7 @@
       <option name="project" value="LOCAL" />
       <updated>1685969591364</updated>
     </task>
-    <task id="LOCAL-00002" summary="checking that using dev branch not main">
-      <created>1685974239172</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685974239172</updated>
-    </task>
-    <task id="LOCAL-00003" summary="initial set up of login form">
-      <created>1685978281404</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685978281404</updated>
-    </task>
-    <task id="LOCAL-00004" summary="addition of authenticate.php page and css for alerts with associated javascript">
-      <created>1686068403861</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1686068403861</updated>
-    </task>
-    <task id="LOCAL-00005" summary="beginning of header and navbar">
-      <created>1686082591462</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1686082591462</updated>
-    </task>
-    <task id="LOCAL-00006" summary="changes to header">
-      <created>1686134488508</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1686134488508</updated>
-    </task>
-    <task id="LOCAL-00007" summary="header and navbar the same on homePage and change password page - however when code for form is added navbar changes! not sure why">
-      <created>1686576846075</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1686576846075</updated>
-    </task>
-    <task id="LOCAL-00008" summary="all pages from homePage added and set up with header, navbar and footer. All look the same.">
-      <created>1686589648974</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1686589648974</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Start of scan on demand and saveScans">
-      <created>1686681821292</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1686681821292</updated>
-    </task>
-    <task id="LOCAL-00010" summary="scan on demand works fully and displays history page which is currently blank">
-      <created>1686847464958</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1686847464958</updated>
-    </task>
-    <task id="LOCAL-00011" summary="history and more info page (scan results) works ok">
-      <created>1686864593717</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1686864593717</updated>
-    </task>
-    <task id="LOCAL-00012" summary="homepage table css tidied up">
-      <created>1686917761149</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1686917761149</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +90,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="setting up dev branch" />
     <MESSAGE value="initial commit of ProjectVersionTwo to attempt removal of bootstrap link stopping info pop-ups" />
     <MESSAGE value="checking that using dev branch not main" />
     <MESSAGE value="initial set up of login form" />
